@@ -1,0 +1,44 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Vsite.CSharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                // TODO: Pokrenuti program i provjeriti ispis
+
+                List<Osoba> osobe = new List<Osoba>();
+                osobe.Add(new Osoba("Žagar", "Ante", new DateTime(1975, 12, 5)));
+                osobe.Add(new Osoba("Perić", "Pero", new DateTime(1984, 7, 21)));
+                osobe.Add(new Osoba("Perić", "Ante", new DateTime(1992, 3, 17)));
+                osobe.Add(new Osoba("Babaja", "Ante", new DateTime(1989, 9, 25)));
+                Ispiši(osobe);
+
+                // TODO: Dopuniti klasu Osoba tako da implementira sučelje IComparable koje će uspoređivati osobe po prezimenu, a ako osobe imaju isto prezime, onda i po imenu. Pokrenuti program i provjeriti ispis.
+
+                Console.WriteLine("SORTIRANO:");
+                osobe.Sort();
+                Ispiši(osobe);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            Console.WriteLine("GOTOVO!!!");
+            Console.ReadKey();
+        }
+
+        static void Ispiši<T>(IEnumerable<T> obilaziv)
+        {
+            foreach (var e in obilaziv)
+                Console.WriteLine(e);
+        }
+    }
+}
