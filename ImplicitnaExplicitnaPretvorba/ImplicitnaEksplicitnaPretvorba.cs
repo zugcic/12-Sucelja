@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Vsite.CSharp
 {
-    class Program
+    class ImplicitnaEksplicitnaPretvorba
     {
         static void Main(string[] args)
         {

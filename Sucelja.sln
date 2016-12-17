@@ -14,9 +14,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefinicijaImplementacijaSu�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualniČlanovi", "VirtualniClanovi\VirtualniČlanovi.csproj", "{6B696ADE-89BA-41FB-96AC-E1C3A32F378C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitnaExplicitnaPretvorba", "ImplicitnaExplicitnaPretvorba\ImplicitnaExplicitnaPretvorba.csproj", "{24C37A8B-D387-4744-9515-19040056E4BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitnaEksplicitnaPretvorba", "ImplicitnaExplicitnaPretvorba\ImplicitnaEksplicitnaPretvorba.csproj", "{24C37A8B-D387-4744-9515-19040056E4BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementacijaIstoimenihClanovaIzRazlicitihSucelja", "ImplementacijaIstoimenihClanovaIzRazlicitihSucelja\ImplementacijaIstoimenihClanovaIzRazlicitihSucelja.csproj", "{A40CA86B-BC55-4B4B-98D9-C727D4E10791}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementacijaIstoimenihČlanovaIzRazličitihSučelja", "ImplementacijaIstoimenihClanovaIzRazlicitihSucelja\ImplementacijaIstoimenihČlanovaIzRazličitihSučelja.csproj", "{A40CA86B-BC55-4B4B-98D9-C727D4E10791}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipskiSigurneImplementacije", "TipskiSigurneImplementacije\TipskiSigurneImplementacije.csproj", "{B7438F86-9D81-4378-A4C8-8F58636ACE57}"
 EndProject
@@ -27,6 +27,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testovi", "Testovi\Testovi.csproj", "{C77EF973-895B-4E38-8949-00D362D5131D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{7205F5BE-98DF-4842-A3EE-08186FA60B77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02", "02", "{171251A2-7CE9-486D-A820-1E2BCF77AAD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03", "03", "{6F7B52A3-774D-4468-8F94-25E449584233}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04", "04", "{69348E5E-38C7-4479-8886-1233D24225EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05", "05", "{B758580F-EAAC-4B92-BBBA-D28709C52317}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06", "06", "{08D02B31-C0D7-4F72-A25E-2D6C0B0A831E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,5 +83,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4023649C-8194-4981-A7C9-2CF179E31598} = {14E87B81-16E3-4F41-8B55-EF29D303F040}
 		{B3147BA9-4C17-4158-920E-0E0E3A6ACAC6} = {7205F5BE-98DF-4842-A3EE-08186FA60B77}
+		{6B696ADE-89BA-41FB-96AC-E1C3A32F378C} = {171251A2-7CE9-486D-A820-1E2BCF77AAD6}
+		{24C37A8B-D387-4744-9515-19040056E4BE} = {6F7B52A3-774D-4468-8F94-25E449584233}
+		{A40CA86B-BC55-4B4B-98D9-C727D4E10791} = {69348E5E-38C7-4479-8886-1233D24225EB}
+		{B7438F86-9D81-4378-A4C8-8F58636ACE57} = {B758580F-EAAC-4B92-BBBA-D28709C52317}
+		{406B975A-B12D-4C91-B63C-C5FC60C48101} = {08D02B31-C0D7-4F72-A25E-2D6C0B0A831E}
 	EndGlobalSection
 EndGlobal
