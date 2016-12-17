@@ -12,7 +12,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmisaoSučelja", "SmisaoSuc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefinicijaImplementacijaSučelja", "DefinicijaImplementacijaSucelja\DefinicijaImplementacijaSučelja.csproj", "{B3147BA9-4C17-4158-920E-0E0E3A6ACAC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualniClanovi", "VirtualniClanovi\VirtualniClanovi.csproj", "{6B696ADE-89BA-41FB-96AC-E1C3A32F378C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualniČlanovi", "VirtualniClanovi\VirtualniČlanovi.csproj", "{6B696ADE-89BA-41FB-96AC-E1C3A32F378C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitnaExplicitnaPretvorba", "ImplicitnaExplicitnaPretvorba\ImplicitnaExplicitnaPretvorba.csproj", "{24C37A8B-D387-4744-9515-19040056E4BE}"
 EndProject
