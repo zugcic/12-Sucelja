@@ -1,12 +1,14 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E19F2F1A-6B90-42BB-BFD6-D8380DE7EEC3}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_", "_", "{E19F2F1A-6B90-42BB-BFD6-D8380DE7EEC3}"
 	ProjectSection(SolutionItems) = preProject
 		ReadMe.txt = ReadMe.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmisaoSucelja", "SmisaoSucelja\SmisaoSucelja.csproj", "{4023649C-8194-4981-A7C9-2CF179E31598}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmisaoSučelja", "SmisaoSucelja\SmisaoSučelja.csproj", "{4023649C-8194-4981-A7C9-2CF179E31598}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefinicijaImplementacijaSucelja", "DefinicijaImplementacijaSucelja\DefinicijaImplementacijaSucelja.csproj", "{B3147BA9-4C17-4158-920E-0E0E3A6ACAC6}"
 EndProject
@@ -19,6 +21,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipskiSigurneImplementacije", "TipskiSigurneImplementacije\TipskiSigurneImplementacije.csproj", "{B7438F86-9D81-4378-A4C8-8F58636ACE57}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortIComparable", "SortIComparable\SortIComparable.csproj", "{406B975A-B12D-4C91-B63C-C5FC60C48101}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00", "00", "{14E87B81-16E3-4F41-8B55-EF29D303F040}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testovi", "Testovi\Testovi.csproj", "{C77EF973-895B-4E38-8949-00D362D5131D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,8 +60,15 @@ Global
 		{406B975A-B12D-4C91-B63C-C5FC60C48101}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{406B975A-B12D-4C91-B63C-C5FC60C48101}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{406B975A-B12D-4C91-B63C-C5FC60C48101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C77EF973-895B-4E38-8949-00D362D5131D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C77EF973-895B-4E38-8949-00D362D5131D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C77EF973-895B-4E38-8949-00D362D5131D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C77EF973-895B-4E38-8949-00D362D5131D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4023649C-8194-4981-A7C9-2CF179E31598} = {14E87B81-16E3-4F41-8B55-EF29D303F040}
 	EndGlobalSection
 EndGlobal

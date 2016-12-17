@@ -2,15 +2,22 @@ using System;
 
 namespace Vsite.CSharp
 {
-    class Osoba
+    public class Osoba
     {
-        public Osoba(string ime, DateTime datumRodjenja)
+        public Osoba(string ime, DateTime datumRoðenja, string mjestoRoðenja)
         {
             Ime = ime;
-            DatumRodjenja = datumRodjenja;
+            DatumRoðenja = datumRoðenja;
+            MjestoRoðenja = mjestoRoðenja;
+        }
+
+        public override string ToString()
+        {
+            return string.Format("{0}, {1}, {2}", Ime, DatumRoðenja.ToShortDateString(), MjestoRoðenja);
         }
 
         public readonly string Ime;
-        public readonly DateTime DatumRodjenja;
+        public readonly DateTime DatumRoðenja;
+        public readonly string MjestoRoðenja;
     }
 }
