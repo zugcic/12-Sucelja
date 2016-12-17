@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_", "_", "{E19F2F1A-6B90-42
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmisaoSučelja", "SmisaoSucelja\SmisaoSučelja.csproj", "{4023649C-8194-4981-A7C9-2CF179E31598}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefinicijaImplementacijaSucelja", "DefinicijaImplementacijaSucelja\DefinicijaImplementacijaSucelja.csproj", "{B3147BA9-4C17-4158-920E-0E0E3A6ACAC6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefinicijaImplementacijaSučelja", "DefinicijaImplementacijaSucelja\DefinicijaImplementacijaSučelja.csproj", "{B3147BA9-4C17-4158-920E-0E0E3A6ACAC6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualniClanovi", "VirtualniClanovi\VirtualniClanovi.csproj", "{6B696ADE-89BA-41FB-96AC-E1C3A32F378C}"
 EndProject
@@ -25,6 +25,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00", "00", "{14E87B81-16E3-4F41-8B55-EF29D303F040}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testovi", "Testovi\Testovi.csproj", "{C77EF973-895B-4E38-8949-00D362D5131D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{7205F5BE-98DF-4842-A3EE-08186FA60B77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -70,5 +72,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4023649C-8194-4981-A7C9-2CF179E31598} = {14E87B81-16E3-4F41-8B55-EF29D303F040}
+		{B3147BA9-4C17-4158-920E-0E0E3A6ACAC6} = {7205F5BE-98DF-4842-A3EE-08186FA60B77}
 	EndGlobalSection
 EndGlobal

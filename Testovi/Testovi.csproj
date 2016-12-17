@@ -45,15 +45,22 @@
     </When>
     <Otherwise>
       <ItemGroup>
-        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+          <Private>False</Private>
+        </Reference>
       </ItemGroup>
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="TestDefinicijaImplementacijaSučelja.cs" />
     <Compile Include="TestSmislaSučelja.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DefinicijaImplementacijaSucelja\DefinicijaImplementacijaSučelja.csproj">
+      <Project>{b3147ba9-4c17-4158-920e-0e0e3a6acac6}</Project>
+      <Name>DefinicijaImplementacijaSučelja</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SmisaoSucelja\SmisaoSučelja.csproj">
       <Project>{4023649c-8194-4981-a7c9-2cf179e31598}</Project>
       <Name>SmisaoSučelja</Name>
