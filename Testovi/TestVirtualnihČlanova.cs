@@ -5,7 +5,7 @@ using Vsite.CSharp;
 namespace Vsite.CSharp.Testovi
 {
     [TestClass]
-    public class TestVirtualneMetode
+    public class TestVirtualnihČlanova
     {
         [TestMethod]
         public void VirtualniČlanovi_BaznaVirtualnaMetodaVraćaTekst()
