@@ -44,9 +44,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Osoba.cs" />
     <Compile Include="SmisaoSučelja.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ImplementacijaSucelja\ImplementacijaSučelja.csproj">
+      <Project>{406b975a-b12d-4c91-b63c-c5fc60c48101}</Project>
+      <Name>ImplementacijaSučelja</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

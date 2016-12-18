@@ -35,10 +35,10 @@ namespace Vsite.CSharp
         {
             List<Osoba> popisOsoba = new List<Osoba>();
 
-            popisOsoba.Add(new Osoba("Ana", new DateTime(1975, 7, 12), "Split"));
-            popisOsoba.Add(new Osoba("Žarko", new DateTime(1965, 12, 4), "Osijek"));
-            popisOsoba.Add(new Osoba("Marko", new DateTime(1983, 4, 2), "Sinj"));
-            popisOsoba.Add(new Osoba("Tomislav", new DateTime(1971, 11, 5), "Beli Manastir"));
+            popisOsoba.Add(new Osoba("Ana", "Mariæ", new DateTime(1975, 7, 12), "Split"));
+            popisOsoba.Add(new Osoba("Žarko", "Leviæ", new DateTime(1965, 12, 4), "Osijek"));
+            popisOsoba.Add(new Osoba("Marko", "Karamatiæ", new DateTime(1983, 4, 2), "Sinj"));
+            popisOsoba.Add(new Osoba("Tomislav", "Kralj", new DateTime(1971, 11, 5), "Beli Manastir"));
 
             Console.WriteLine("Ispis prije sortiranja:");
             Ispiši(popisOsoba);
@@ -46,7 +46,7 @@ namespace Vsite.CSharp
 
             try
             {
-                Console.WriteLine("Sortiramo po neèemu:");
+                Console.WriteLine("Sortiramo podrazumijevano:");
                 SortiranoPoNeèemu(popisOsoba);
                 Ispiši(popisOsoba);
                 Console.WriteLine();

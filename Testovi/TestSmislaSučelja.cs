@@ -12,10 +12,10 @@ namespace Vsite.CSharp.Testovi
         {
             List<Osoba> popisOsoba = new List<Osoba>();
 
-            popisOsoba.Add(new Osoba("Ana", new DateTime(1975, 7, 12), "Split"));
-            popisOsoba.Add(new Osoba("Žarko", new DateTime(1965, 12, 4), "Osijek"));
-            popisOsoba.Add(new Osoba("Marko", new DateTime(1983, 4, 2), "Sinj"));
-            popisOsoba.Add(new Osoba("Tomislav", new DateTime(1971, 11, 5), "Beli Manastir"));
+            popisOsoba.Add(new Osoba("Ana", "Anić", new DateTime(1975, 7, 12), "Split"));
+            popisOsoba.Add(new Osoba("Žarko", "Žarkić", new DateTime(1965, 12, 4), "Osijek"));
+            popisOsoba.Add(new Osoba("Marko", "Markić", new DateTime(1983, 4, 2), "Sinj"));
+            popisOsoba.Add(new Osoba("Tomislav", "Tomić", new DateTime(1971, 11, 5), "Beli Manastir"));
 
             return popisOsoba;
         }

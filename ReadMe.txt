@@ -1,6 +1,12 @@
 Sučelja
 =======
 
+ImplementacijaSučelja
+---------------------
+Primjer implementacije sučelja IComparable koje omogućava implicitno sortiranje
+elemenata, bez eksplicitnog navođenja metode za usporedbu.
+
+
 SmisaoSučelja
 -------------
 Sučelja doprinose apstrakciji i omogućavaju slabiju uparenost.
@@ -9,7 +15,7 @@ ime osobe i datum njena rođenja.
 
 Mogli bismo upotrijebiti metodu:
   List<T>.Sort()
-koja može sortirati samo elemente koji implementiraju ISortable sučelje. 
+koja može sortirati samo elemente koji implementiraju IComparable sučelje. 
 Zbog toga bi uvjet koji se koristi za sortiranje trebalo ugraditi 
 u kod klase Osoba i lista bi uvijek bila sortirana prema tom uvjetu.
 
@@ -53,9 +59,3 @@ Primjer kako se implementiraju metode s istim potpisom iz različitih sučelja.
 TipskiSigurneImplementacije
 ---------------------------
 Primjer kako se sučelje može implementirati da bude tipski sigurno.
-
-
-SortIComparable
----------------
-Primjer implementacije ISortable sučelja koja omogućava implicitno sortiranje
-elemenata, bez eksplicitnog navođenja metode za usporedbu.

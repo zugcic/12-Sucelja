@@ -55,6 +55,7 @@
     <Compile Include="ConsoleTest.cs" />
     <Compile Include="TestDefinicijaImplementacijaSučelja.cs" />
     <Compile Include="TestImplementacijeIstoimenihČlanovaRazličitihSučelja.cs" />
+    <Compile Include="TestImplementacijeSučelja.cs" />
     <Compile Include="TestImplicitneEksplicitnePretvorbe.cs" />
     <Compile Include="TestSmislaSučelja.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -69,6 +70,10 @@
     <ProjectReference Include="..\ImplementacijaIstoimenihClanovaIzRazlicitihSucelja\ImplementacijaIstoimenihČlanovaIzRazličitihSučelja.csproj">
       <Project>{a40ca86b-bc55-4b4b-98d9-c727d4e10791}</Project>
       <Name>ImplementacijaIstoimenihČlanovaIzRazličitihSučelja</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ImplementacijaSucelja\ImplementacijaSučelja.csproj">
+      <Project>{406b975a-b12d-4c91-b63c-c5fc60c48101}</Project>
+      <Name>ImplementacijaSučelja</Name>
     </ProjectReference>
     <ProjectReference Include="..\ImplicitnaExplicitnaPretvorba\ImplicitnaEksplicitnaPretvorba.csproj">
       <Project>{24c37a8b-d387-4744-9515-19040056e4be}</Project>
