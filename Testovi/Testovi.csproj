@@ -58,6 +58,7 @@
     <Compile Include="TestImplicitneEksplicitnePretvorbe.cs" />
     <Compile Include="TestSmislaSučelja.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestTipskiSigurneImplementacije.cs" />
     <Compile Include="TestVirtualnihČlanova.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -76,6 +77,10 @@
     <ProjectReference Include="..\SmisaoSucelja\SmisaoSučelja.csproj">
       <Project>{4023649c-8194-4981-a7c9-2cf179e31598}</Project>
       <Name>SmisaoSučelja</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TipskiSigurneImplementacije\TipskiSigurneImplementacije.csproj">
+      <Project>{b7438f86-9d81-4378-a4c8-8f58636ace57}</Project>
+      <Name>TipskiSigurneImplementacije</Name>
     </ProjectReference>
     <ProjectReference Include="..\VirtualniClanovi\VirtualniČlanovi.csproj">
       <Project>{6b696ade-89ba-41fb-96ac-e1c3a32f378c}</Project>
